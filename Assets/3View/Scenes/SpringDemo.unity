@@ -263,13 +263,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StatusFilter: 2
-  OnTargetFound:
-    m_PersistentCalls:
-      m_Calls: []
-  OnTargetLost:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &598688427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,6 +276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTrackableName: 
+  mPreserveChildSize: 0
   mInitializedInEditor: 0
   mSelectedStageType: 0
   mPlaneReference: {fileID: 0}
