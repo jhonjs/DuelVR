@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
+    [Header("Player")]
     public GameObject player;
     public Transform spawnPoint;
     public bool isCreate;
+
+    [Header("Duelos")]
+    public int amountWin;
 
     private void OnMouseDown()
     {
