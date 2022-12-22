@@ -8,14 +8,13 @@ public class GameManager : MonoBehaviour
     public enum gameState { menu, play, pause }
     public gameState state;
     public AudioSource sound;
-   
 
-    public void ChangeScene (string scene)
+    virtual public void ChangeScene (string scene)
     {
         StartCoroutine("ChangeSceneTimeOut", scene);
         
     }
-    public void PlaySound(AudioSource sound)
+    virtual public void PlaySound(AudioSource sound)
     {
         sound.Play();
     }

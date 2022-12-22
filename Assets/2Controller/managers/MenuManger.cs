@@ -6,5 +6,9 @@ using TMPro;
 
 public class MenuManger : GameManager
 {
-   
+    public override void Exit()
+    {
+        base.Exit();
+        sound.Stop();
+    }
 }
