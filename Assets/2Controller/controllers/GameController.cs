@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 
-public class GameController : MonoBehaviour
+public class GameController : NetworkBehaviour
 {
     [Header("Player")]
+    public NetworkVariable<Vector3> Position = new NetworkVariable<Vector3>();
     public GameObject player;
     public Transform spawnPoint;
     public bool isCreate;
@@ -12,6 +14,16 @@ public class GameController : MonoBehaviour
     [Header("Duelos")]
     public int amountWin;
 
+    public override void OnNetworkSpawn()
+    {
+        if (IsOwner) {
+            if (NetworkManager.Singleton.IsServer)
+            {
+                Position.Value = spawnPoint.position;
+            }
+            Position.Value = spawnPoint.position;
+        }
+    }
     private void OnMouseDown()
     {
         if (isCreate) return;
