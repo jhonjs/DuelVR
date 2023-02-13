@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15e70ebdd0f21cb4885939ccd339463b, type: 3}
+  m_Name: open
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 5a530bdd821b2bf42a38fae05c597211, type: 3}
+  key: open
+  value: Enter
+  type: 2
+  damage: 0
+  description: Accion que abre una ventana o un archivo, posibilita la lectura de
+    su contenido. Normalmente se hace al dar doble click sobre el archivo requerido
