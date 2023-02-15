@@ -15,18 +15,22 @@ public class GameController : MonoBehaviour
     public PlayerController player;
     public GameObject selectTarget;
 
+    private void Start()
+    {
+        player = FindObjectOfType<PlayerController>();
+    }
+
     public void attack(string type)
     {
         foreach(string skill in skills)
         {
             if(skill == type)
             {
-                print("habilidad:" + skill);
+               
             }
         }
     }
 
-    
     public void SelectTarget(GameObject target)
     {
         selectTarget = target;

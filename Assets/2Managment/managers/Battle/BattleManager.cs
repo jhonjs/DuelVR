@@ -28,4 +28,8 @@ public class BattleManager : MonoBehaviour
         enemyActive = null;
     }
 
+    public void Attack(string attack)
+    {
+        print($"{attack}");
+    }
 }

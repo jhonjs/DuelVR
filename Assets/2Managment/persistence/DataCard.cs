@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Skill", menuName = "Persistence/Models", order = 5)]
+[CreateAssetMenu(fileName = "Skill", menuName = "Models/Skill", order = 5)]
 public class DataCard : ScriptableObject
 {
     public Sprite sprite;

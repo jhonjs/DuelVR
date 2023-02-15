@@ -407,8 +407,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 86.28047, y: -19.20345}
-  m_SizeDelta: {x: 40, y: 55}
+  m_AnchoredPosition: {x: 41.39218, y: -19.724148}
+  m_SizeDelta: {x: 22, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &531478613
 MonoBehaviour:
@@ -1034,8 +1034,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 41.28047, y: -19.20345}
-  m_SizeDelta: {x: 40, y: 55}
+  m_AnchoredPosition: {x: 17.392181, y: -19.724148}
+  m_SizeDelta: {x: 22, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &816141442
 MonoBehaviour:
@@ -1696,8 +1696,8 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 40, y: 55}
-  m_Spacing: {x: 5, y: 0}
+  m_CellSize: {x: 22, y: 35}
+  m_Spacing: {x: 2, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 5
 --- !u!1 &1153078391
@@ -2061,8 +2061,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 41.28047, y: -74.203445}
-  m_SizeDelta: {x: 40, y: 55}
+  m_AnchoredPosition: {x: 65.39218, y: -19.724148}
+  m_SizeDelta: {x: 22, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1281921444
 MonoBehaviour:
@@ -2830,8 +2830,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 41.28047, y: -129.20345}
-  m_SizeDelta: {x: 40, y: 55}
+  m_AnchoredPosition: {x: 113.39218, y: -19.724148}
+  m_SizeDelta: {x: 22, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1615145502
 MonoBehaviour:
@@ -3168,7 +3168,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1714972924
 Transform:
   m_ObjectHideFlags: 0
@@ -3220,7 +3220,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7449433560360191071}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 30, y: -15, z: 0}
 --- !u!81 &1727875886
 AudioListener:
@@ -3725,8 +3725,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 86.28047, y: -74.203445}
-  m_SizeDelta: {x: 40, y: 55}
+  m_AnchoredPosition: {x: 89.39218, y: -19.724148}
+  m_SizeDelta: {x: 22, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1865964994
 MonoBehaviour:
@@ -4599,7 +4599,7 @@ Transform:
   - {fileID: 188430530720403973}
   - {fileID: 4653702733114538464}
   m_Father: {fileID: 7449433560360191071}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &983764615613523157
 Transform:
@@ -7010,8 +7010,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1727875885}
   - {fileID: 920167219600562548}
+  - {fileID: 1727875885}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -7430,11 +7430,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98846c6e8f8fd4e4a8b3c32456846aa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skills:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   playerName: Sonia Blade
   markerSelect: {fileID: 0}
   folderButtons: {fileID: 0}
@@ -7446,6 +7441,13 @@ MonoBehaviour:
   - {fileID: 1615145500}
   anim: {fileID: 0}
   enemy: {fileID: 0}
+  amountCard: 4
+  amountSkills: 0
+  txtAmountCard: {fileID: 1779607963}
+  cardPanel: {fileID: 1103225997}
+  show: 0
+  folderSkill: {fileID: 1103225997}
+  activator: {fileID: 0}
 --- !u!4 &8693522353062675970
 Transform:
   m_ObjectHideFlags: 0

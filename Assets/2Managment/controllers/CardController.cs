@@ -19,36 +19,31 @@ public class CardController : MonoBehaviour
     
     void Start()
     {
-        skills = new List<DataCard>();
+ /*       skills = new List<DataCard>();
         txtAmountCard.text = amountCard.ToString("");
         cardPanel.SetActive(false);
+
+        var player = JObject.Parse(PlayerPrefs.GetString("player"));
+        amountSkills = int.Parse(player.SelectToken("amountSkills").ToString());
+
+        //print(string.Join(",", player.SelectToken("skills")));
+        for (int i = 0; i < amountSkills; i++)
+        {
+            skills.Add(FindObjectOfType<GameManager>().getSkill(player.SelectToken("skills")[i].ToString()));
+        }
+
+        foreach (var key in skills)
+        {
+            var sk = Instantiate(activator, folderSkill.transform);
+            var gm = FindObjectOfType<GameController>();
+            sk.GetComponent<Image>().sprite = key.sprite;
+            sk.GetComponent<Button>().onClick.AddListener(() => gm.attack(key.key));
+        }*/
     }
 
     public void showPanel()
     {
         show = !show;
-
         cardPanel.SetActive(show);
-        if (show)
-        {
-            var player = JObject.Parse(PlayerPrefs.GetString("player"));
-            amountSkills = int.Parse(player.SelectToken("amountSkills").ToString());
-
-            print(string.Join(",", player.SelectToken("skills")));
-            for (int i = 0; i < amountSkills; i++)
-            {
-                skills.Add(FindObjectOfType<GameManager>().getSkill(player.SelectToken("skills")[i].ToString()));
-            }
-
-            foreach(var key in skills)
-            {
-                var sk = Instantiate(activator, folderSkill.transform);
-                var gm = FindObjectOfType<GameController>();
-                sk.GetComponent<Image>().sprite = key.sprite;
-                sk.GetComponent<Button>().onClick.AddListener(() => gm.attack(key.key));
-            }
-
-        }
-
     }
 }
