@@ -6,6 +6,7 @@ public class BattleManager : MonoBehaviour
 {
     public GameObject playerActive;
     public GameObject enemyActive;
+    private Animator anim;
 
     public void PlayerSelect(GameObject target){
         playerActive = target;
@@ -28,8 +29,14 @@ public class BattleManager : MonoBehaviour
         enemyActive = null;
     }
 
-    public void Attack(string attack)
+    public void GetAnimator(Animator animator)
     {
-        print($"{attack}");
+        print(anim);
+        anim = animator;
+    }
+    public void Attack(string name)
+    {
+        print($"cut {anim}");
+        anim.SetTrigger("attack");
     }
 }

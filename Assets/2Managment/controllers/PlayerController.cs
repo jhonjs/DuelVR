@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public string playerName;
 
     [Header("Battle System")]
-    private BattleManager battleManager;
+    public BattleManager battleManager;
     public GameObject markerSelect;
 
     [Header("Actions Player")]
@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
     public GameObject[] actions;
     /*public GameObject action;*/
 
-    public Animator anim;
+    public Animator animator;
     public GameObject enemy;
 
     [Header("Attack Cards")]
@@ -32,9 +32,13 @@ public class PlayerController : MonoBehaviour
     private List<DataCard> skills;
     public GameObject folderSkill;
     public GameObject activator;
-
-    private void Start()
+    private void Awake()
     {
+        Init();
+    }
+    private void Start()
+    {   
+        battleManager.GetAnimator(animator);
         skills = new List<DataCard>();
         txtAmountCard.text = amountCard.ToString("");
         cardPanel.SetActive(false);
@@ -52,14 +56,18 @@ public class PlayerController : MonoBehaviour
         {
             var sk = Instantiate(activator, folderSkill.transform);
             var gm = FindObjectOfType<GameController>();
+
             sk.GetComponent<Image>().sprite = key.sprite;
-            sk.GetComponent<Button>().onClick.AddListener(() => gm.attack(key.key));
+            sk.GetComponent<Button>().onClick.AddListener(() => battleManager.Attack(key.key));
+
         }
+
     }
     private void Init()
     {
         battleManager = FindObjectOfType<BattleManager>();
-        anim = GetComponent<Animator>();
+        print(battleManager);
+        animator = GetComponentInChildren<Animator>();
         actions = new GameObject[4];
 
         foreach (var _player in GameObject.FindGameObjectsWithTag("Player"))
@@ -81,16 +89,12 @@ public class PlayerController : MonoBehaviour
         player.id += 1; 
         player.name = playerName;*/
     }
-    private void Awake()
-    {
-        Init();
-    }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.M))
         {
-            anim.SetTrigger("attack");
+            animator.SetTrigger("attack");
         }
     }
 

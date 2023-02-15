@@ -7431,6 +7431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerName: Sonia Blade
+  battleManager: {fileID: 0}
   markerSelect: {fileID: 0}
   folderButtons: {fileID: 0}
   actions:
@@ -7447,7 +7448,8 @@ MonoBehaviour:
   cardPanel: {fileID: 1103225997}
   show: 0
   folderSkill: {fileID: 1103225997}
-  activator: {fileID: 0}
+  activator: {fileID: 9119694601643861804, guid: 2916fd68002224844a6ccbac19d149f6,
+    type: 3}
 --- !u!4 &8693522353062675970
 Transform:
   m_ObjectHideFlags: 0
