@@ -12,7 +12,7 @@ public class EnemyController : MonoBehaviour
     private void Awake()
     {
         battleManager = FindObjectOfType<BattleManager>();
-        animator = GetComponent<Animator>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     private void OnMouseDown()

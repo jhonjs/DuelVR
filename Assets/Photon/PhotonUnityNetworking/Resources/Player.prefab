@@ -175,7 +175,7 @@ Animator:
   m_GameObject: {fileID: 544592073118370248}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: d48f71436fe0c9941af3815d546c5a7f, type: 3}
-  m_Controller: {fileID: 9100000, guid: 631d0955513a4274896c94bf63e01c33, type: 2}
+  m_Controller: {fileID: 9100000, guid: 799c48da881494e49b4a3516fb5c9074, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2611,9 +2611,11 @@ GameObject:
   - component: {fileID: -609499144242906333}
   - component: {fileID: -6488362117157754299}
   - component: {fileID: -9121358500819551111}
+  - component: {fileID: 1409039607420846068}
+  - component: {fileID: 2820733748744651735}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Enemy
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2750,6 +2752,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ignoreScripts:
   - {fileID: -9121358500819551111}
+--- !u!114 &1409039607420846068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7449433560615882334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 541a76f9c03874323b5154b14ac00427, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spline: {fileID: 0}
+  Speed: 0
+  lookForward: 0
+  reverse: 0
+  currentDistance: 0
+  currentClampedDistance: 0
+--- !u!114 &2820733748744651735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7449433560615882334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 346dd0665931cbd4a946f98153166b1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  markerSelect: {fileID: 0}
 --- !u!1 &7456057033702972179
 GameObject:
   m_ObjectHideFlags: 0

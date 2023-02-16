@@ -2467,11 +2467,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98846c6e8f8fd4e4a8b3c32456846aa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skills: []
   playerName: 
+  battleManager: {fileID: 0}
   markerSelect: {fileID: 5172711359142247580}
-  anim: {fileID: 0}
+  animator: {fileID: 0}
   enemy: {fileID: 0}
+  amountCard: 4
+  amountSkills: 0
+  txtAmountCard: {fileID: 0}
+  cardPanel: {fileID: 0}
+  show: 0
+  folderSkill: {fileID: 0}
+  activator: {fileID: 0}
 --- !u!114 &5172711359735248145
 MonoBehaviour:
   m_ObjectHideFlags: 0
