@@ -52,58 +52,11 @@ public class GameManager : MonoBehaviour
         player._name = playerMaster.SelectToken("_name").ToString();
         player._age = (int) playerMaster.SelectToken("_age");
 
-        if(!player.skills.Contains(skill))player.skills.Add(skill);
+        if(!player.skills.Contains(skill)) player.skills.Add(skill);
 
         player.amountSkills = player.skills.Count;
 
         PlayerPrefs.SetString("player", JsonUtility.ToJson(player)); 
     }
 
-    public void addPlayerSkill2(string skill)
-    {
-        var playerMaster = JObject.Parse(PlayerPrefs.GetString("player"));
-
-        player.id = (int)playerMaster.SelectToken("id");
-        player._name = playerMaster.SelectToken("_name").ToString();
-        player._age = (int)playerMaster.SelectToken("_age");
-
-        player.skills2.Add(skill);
-
-        print($"addPlayerSkill2: {JsonUtility.ToJson(player)}");
-
-        PlayerPrefs.SetString("player", JsonUtility.ToJson(player));
-
-        /*var mock = JObject.Parse(PlayerPrefs.GetString("player"));
-         *print($"{ JsonConvert.DeserializeObject(PlayerPrefs.GetString("player"))}");*/
-    }
-
-    public void setSkills(string name)
-    {
-        Skill skill = new();
-
-        skill.skillId += 10;
-        skill._name = name;
-        skill.userID = (int) JObject.Parse(PlayerPrefs.GetString("player")).SelectToken("id");
-        switch (name)
-        {
-            case "cut":
-                skill.damage = 10;
-                break;
-            case "copy":
-                skill.damage = 15;
-                break;
-            case "paste":
-                skill.damage = 20;
-                break;
-            case "close":
-                skill.damage = 25;
-                break;
-            case "open":
-                skill.damage = 30;
-                break;
-        }
-        var persever = JsonUtility.ToJson(skill);
-        //var persever2 = JsonConvert.SerializeObject(skill);
-        addPlayerSkill2(persever);
-    }
 }

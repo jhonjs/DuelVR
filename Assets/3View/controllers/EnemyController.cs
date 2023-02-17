@@ -5,17 +5,18 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     public Animator animator;
-    [Header("Battle System")]
-    private BattleManager battleManager;
-    public GameObject markerSelect;
+    /*private BattleManager battleManager;*/
     
     private void Awake()
     {
-        battleManager = FindObjectOfType<BattleManager>();
+        //battleManager = FindObjectOfType<BattleManager>();
         animator = GetComponentInChildren<Animator>();
     }
-
-    private void OnMouseDown()
+}
+#region oldcode_selectEnemy
+/*    
+    public GameObject markerSelect;
+private void OnMouseDown()
     {
         if (battleManager.enemyActive != gameObject && battleManager.enemyActive != null)
         {
@@ -23,9 +24,9 @@ public class EnemyController : MonoBehaviour
         }
         EnemySelect();
         battleManager.EnemySelect(gameObject);
-    }
+    }*/
 
-    public void EnemySelect()
+/*    public void EnemySelect()
     {
         markerSelect.SetActive(true);
     }
@@ -38,5 +39,5 @@ public class EnemyController : MonoBehaviour
     public void SetAnimationOnTrigger(string name)
     {
         animator.SetTrigger(name);
-    }
-}
+    }*/
+#endregion

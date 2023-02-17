@@ -7,10 +7,6 @@ public class GameController : MonoBehaviour
 {
     [Header("Duelos")]
     public int amountWin;
-    public GameObject[] imgSkill;
-
-    public string[] skills;
-    public GameObject[] slots;
 
     public PlayerController player;
     public GameObject selectTarget;
@@ -18,17 +14,6 @@ public class GameController : MonoBehaviour
     private void Start()
     {
         player = FindObjectOfType<PlayerController>();
-    }
-
-    public void attack(string type)
-    {
-        foreach(string skill in skills)
-        {
-            if(skill == type)
-            {
-               
-            }
-        }
     }
 
     public void SelectTarget(GameObject target)

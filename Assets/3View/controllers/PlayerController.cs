@@ -59,11 +59,6 @@ public class PlayerController : MonoBehaviour
     {
         battleManager = FindObjectOfType<BattleManager>();
         animator = GetComponentInChildren<Animator>();
-/*
-        foreach (var _player in GameObject.FindGameObjectsWithTag("Player"))
-        {
-            if (_player != gameObject) enemy = _player;
-        }*/
     }
 
     private void Update()
