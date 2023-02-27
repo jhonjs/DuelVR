@@ -12,10 +12,12 @@ public class PlayerController : MonoBehaviour
     [Header("Battle System")]
     public BattleManager battleManager;
     public GameObject markerSelect;
+    public bool attackState;
 
     public Animator animator;
     public GameObject enemy;
 
+    #region cards
     [Header("Attack Cards")]
     public int amountCard = 4;
     public int amountSkills;
@@ -26,6 +28,8 @@ public class PlayerController : MonoBehaviour
     private List<DataCard> skills;
     public GameObject folderSkill;
     public GameObject activator;
+    #endregion
+    
     private void Awake()
     {
         Init();

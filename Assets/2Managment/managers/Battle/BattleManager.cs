@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class BattleManager : MonoBehaviour
 {
- 
     public Animator animatorEnemy;
+
     public void GetEnemy(Animator enemy)
     {
         animatorEnemy = enemy;

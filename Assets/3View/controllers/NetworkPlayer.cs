@@ -18,5 +18,8 @@ public class NetworkPlayer : MonoBehaviour
                 script.enabled = false;
             }
         }
+        else {
+            FindObjectOfType<PlayerController>().attackState = true;
+        }
     }
 }

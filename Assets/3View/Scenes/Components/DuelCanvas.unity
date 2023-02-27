@@ -436,8 +436,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7670537248207334062, guid: c52c1d291370499479f1fcb2559369fa,
+        type: 3}
+      propertyPath: cardPanel
+      value: 
+      objectReference: {fileID: 929567650}
+    - target: {fileID: 7670537248207334062, guid: c52c1d291370499479f1fcb2559369fa,
+        type: 3}
+      propertyPath: folderSkill
+      value: 
+      objectReference: {fileID: 929567650}
+    - target: {fileID: 7670537248207334062, guid: c52c1d291370499479f1fcb2559369fa,
+        type: 3}
+      propertyPath: txtAmountCard
+      value: 
+      objectReference: {fileID: 2046502435}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c52c1d291370499479f1fcb2559369fa, type: 3}
+--- !u!1 &929567650 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 449445473025186576, guid: 0c258a17ccbd1dc478c6efb9cba12383,
+    type: 3}
+  m_PrefabInstance: {fileID: 449445473875640093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2046502435 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 449445473846607914, guid: 0c258a17ccbd1dc478c6efb9cba12383,
+    type: 3}
+  m_PrefabInstance: {fileID: 449445473875640093}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &449445473875640093
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -445,6 +478,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 449445472588631470, guid: 0c258a17ccbd1dc478c6efb9cba12383,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 449445473337574173, guid: 0c258a17ccbd1dc478c6efb9cba12383,
         type: 3}
       propertyPath: m_Pivot.x
