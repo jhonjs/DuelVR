@@ -59,4 +59,13 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.SetString("player", JsonUtility.ToJson(player)); 
     }
 
+    public void OnEnabledPanel(GameObject panel)
+    {
+        panel.SetActive(true);
+    }
+    public void OnDisabledPanel(GameObject panel)
+    {
+        panel.SetActive(false);
+    }
+
 }
