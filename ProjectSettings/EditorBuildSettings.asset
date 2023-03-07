@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/3View/Scenes/SubMenu.unity
     guid: b19d368503571534593388f6331068aa
-  - enabled: 0
+  - enabled: 1
     path: Assets/3View/Scenes/Duel.unity
     guid: 229c402ba00c735439e55db57a6c0c83
   - enabled: 1

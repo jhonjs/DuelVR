@@ -82,6 +82,7 @@
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\2Managment\persistence\DataCard.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\2Managment\managers\Server\PlayerListing.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\2Managment\managers\GameManager.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
@@ -89,6 +90,7 @@
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\2Managment\managers\Server\PlayerListingMenu.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\3View\controllers\CardController.cs" />
