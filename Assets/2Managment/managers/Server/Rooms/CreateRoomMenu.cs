@@ -5,13 +5,10 @@ using Photon.Pun;
 using Photon.Realtime;
 using TMPro;
 
-public class NetworkManager : MonoBehaviourPunCallbacks
+public class CreateRoomMenu : MonoBehaviourPunCallbacks
 {
-    public Transform spawnPoint;
-    public Transform viewPoint;
-
-    public TMP_InputField _roomName;
-
+    [SerializeField] private TextMeshProUGUI _roomName;
+    
     public void OnClick_CreateRoom()
     {
         if (!PhotonNetwork.IsConnected) return;
@@ -22,12 +19,11 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
     public override void OnCreatedRoom()
     {
-        print("CONNECTED SUCCESFULLY");
+        Debug.Log("Create room successfully.", this);
     }
 
     public override void OnCreateRoomFailed(short returnCode, string message)
     {
-        print($"Room created filed, {message}");
+        Debug.Log("Room creation successfully." + message, this);
     }
-
 }
