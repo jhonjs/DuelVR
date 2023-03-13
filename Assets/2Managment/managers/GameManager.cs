@@ -6,12 +6,21 @@ using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] GameObject[] panelsHide;
     public enum gameState { menu, play, pause }
     public gameState state;
     public AudioSource sound;
     Player player = new();
 
     public DataCard[] _skills;
+
+    private void Start()
+    {
+        foreach (GameObject showPanel in panelsHide)
+        {
+            showPanel.SetActive(false);
+        }
+    }
     virtual public void ChangeScene(string scene)
     {
         StartCoroutine("ChangeSceneTimeOut", scene);
@@ -61,6 +70,10 @@ public class GameManager : MonoBehaviour
 
     public void OnEnabledPanel(GameObject panel)
     {
+        foreach(GameObject showPanel in panelsHide)
+        {
+            showPanel.SetActive(false);
+        }
         panel.SetActive(true);
     }
     public void OnDisabledPanel(GameObject panel)

@@ -60,6 +60,7 @@
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
+    <Compile Include="Assets\2Managment\managers\Server\Rooms\CurrentRoomPanel.cs" />
     <Compile Include="Assets\3View\controllers\SkillController.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Assets\2Managment\managers\Server\Rooms\CreateRoomMenu.cs" />
     <Compile Include="Assets\2Managment\managers\Battle\BattleManager.cs" />
     <Compile Include="Assets\2Managment\managers\MenuManger.cs" />
+    <Compile Include="Assets\2Managment\managers\Server\Rooms\RoomPanels.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
@@ -83,6 +85,7 @@
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\2Managment\persistence\DataCard.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\2Managment\managers\Server\Rooms\PlayerListing.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\2Managment\managers\GameManager.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
@@ -90,7 +93,9 @@
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\2Managment\managers\Server\Rooms\PlayerListingsMenu.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\2Managment\managers\Server\Rooms\CreateOrJoinPanel.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\3View\controllers\CardController.cs" />
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
@@ -130,6 +135,8 @@
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\2Managment\managers\Server\Rooms\RoomListing.cs" />
     <Compile Include="Assets\1Model\Damage.cs" />
+    <Compile Include="Assets\2Managment\managers\Server\Utilities\ExtTransforms.cs" />
+    <Compile Include="Assets\2Managment\managers\Server\Rooms\LeaveRoomMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\3View\TextMesh Pro\Shaders\TMPro.cginc" />

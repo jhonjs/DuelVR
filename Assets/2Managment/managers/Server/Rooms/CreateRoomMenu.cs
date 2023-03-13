@@ -8,7 +8,14 @@ using TMPro;
 public class CreateRoomMenu : MonoBehaviourPunCallbacks
 {
     [SerializeField] private TextMeshProUGUI _roomName;
-    
+
+    private RoomPanels _roomPanels;
+
+    public void FirstInitialize(RoomPanels panels)
+    {
+        _roomPanels = panels;
+    }
+
     public void OnClick_CreateRoom()
     {
         if (!PhotonNetwork.IsConnected) return;
@@ -20,6 +27,7 @@ public class CreateRoomMenu : MonoBehaviourPunCallbacks
     public override void OnCreatedRoom()
     {
         Debug.Log("Create room successfully.", this);
+        _roomPanels.CurrentRoomPanel.Show();
     }
 
     public override void OnCreateRoomFailed(short returnCode, string message)
