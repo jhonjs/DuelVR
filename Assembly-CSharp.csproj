@@ -64,6 +64,7 @@
     <Compile Include="Assets\3View\controllers\SkillController.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
+    <Compile Include="Assets\2Managment\managers\Server\Rooms\LeaveRoomMenu.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\2Managment\managers\Server\ServerScriptableObjects\GameSettings.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
@@ -125,6 +126,7 @@
     <Compile Include="Assets\1Model\Player.cs" />
     <Compile Include="Assets\3View\controllers\GameController.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+    <Compile Include="Assets\2Managment\managers\Server\Utilities\ExtTransforms.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
@@ -135,8 +137,6 @@
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\2Managment\managers\Server\Rooms\RoomListing.cs" />
     <Compile Include="Assets\1Model\Damage.cs" />
-    <Compile Include="Assets\2Managment\managers\Server\Utilities\ExtTransforms.cs" />
-    <Compile Include="Assets\2Managment\managers\Server\Rooms\LeaveRoomMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\3View\TextMesh Pro\Shaders\TMPro.cginc" />

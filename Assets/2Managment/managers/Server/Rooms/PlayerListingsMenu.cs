@@ -12,9 +12,19 @@ public class PlayerListingsMenu : MonoBehaviourPunCallbacks
     private List<PlayerListing> _listings = new List<PlayerListing>();
     private RoomPanels _roomPanels;
 
-    private void Awake()
+    public override void OnEnable()
     {
         GetCurrentRoomPlayers();
+    }
+
+    public override void OnDisable()
+    {
+        for(int i = 0; i < _listings.Count; i++)
+        {
+            Destroy(_listings[i].gameObject);
+        }
+
+        _listings.Clear();
     }
 
     public void FirstInitialize(RoomPanels panels)
@@ -29,19 +39,28 @@ public class PlayerListingsMenu : MonoBehaviourPunCallbacks
 
     private void GetCurrentRoomPlayers()
     {
-        var collection = PhotonNetwork.CurrentRoom.Players;
-        foreach(KeyValuePair<int, Photon.Realtime.Player> playerInfo in collection){
+        foreach(KeyValuePair<int, Photon.Realtime.Player> playerInfo in PhotonNetwork.CurrentRoom.Players)
+        {
             AddPlayerListing(playerInfo.Value);
         }
     }
 
     private void AddPlayerListing(Photon.Realtime.Player player)
     {
-        PlayerListing listing = Instantiate(_playerListing, _content);
-        if (listing != null)
+        int index = _listings.FindIndex(x => x.Player == player);
+
+        if(index != -1)
         {
-            listing.SetPlayerInfo(player);
-            _listings.Add(listing);
+            _listings[index].SetPlayerInfo(player);
+        }
+        else
+        {
+            PlayerListing listing = Instantiate(_playerListing, _content);
+            if (listing != null)
+            {
+                listing.SetPlayerInfo(player);
+                _listings.Add(listing);
+            }
         }
     }
 
@@ -60,8 +79,4 @@ public class PlayerListingsMenu : MonoBehaviourPunCallbacks
         }
     }
 
-    private void OnEnable()
-    {
-        GetCurrentRoomPlayers();
-    }
 }
