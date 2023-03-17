@@ -37,7 +37,7 @@ public class MasterManager : SingletonScriptableObject<MasterManager>
 
     
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
-    private static void PopulateNetworkPrefabs()
+    public static void PopulateNetworkPrefabs()
     {
         #if UNITY_EDITOR
 

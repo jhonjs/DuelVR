@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\Editor\ChatEditor.cs" />
+    <Compile Include="Assets\Scripts\2Managment\managers\Server\Editor\ResourcesPrefabBuildPath.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
