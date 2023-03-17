@@ -76,6 +76,7 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\2Managment\managers\Server\ServerScriptableObjects\MasterManager\NetworkPrefab.cs" />
     <Compile Include="Assets\2Managment\managers\Server\Rooms\RoomListingsMenu.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
@@ -90,6 +91,7 @@
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\2Managment\managers\GameManager.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\2Managment\managers\Server\SingleUse\InstantiateExample.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
@@ -133,7 +135,7 @@
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
-    <Compile Include="Assets\2Managment\managers\Server\ServerScriptableObjects\MasterManager.cs" />
+    <Compile Include="Assets\2Managment\managers\Server\ServerScriptableObjects\MasterManager\MasterManager.cs" />
     <Compile Include="Assets\3View\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\2Managment\managers\Server\Rooms\RoomListing.cs" />
     <Compile Include="Assets\1Model\Damage.cs" />

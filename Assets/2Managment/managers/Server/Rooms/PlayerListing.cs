@@ -9,7 +9,7 @@ public class PlayerListing: MonoBehaviour
     [SerializeField] private TextMeshProUGUI _text;
 
     public Photon.Realtime.Player Player { get; private set; }
-
+    public bool Ready = false;
     public void SetPlayerInfo(Photon.Realtime.Player player)
     {
         Player = player;

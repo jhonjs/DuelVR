@@ -6,6 +6,7 @@ public class CurrentRoomPanel : MonoBehaviour
 {
     [SerializeField] private PlayerListingsMenu _playerListingMenu;
     [SerializeField] private LeaveRoomMenu _leaveRoomMenu; 
+    public LeaveRoomMenu LeaveRoomMenu { get { return _leaveRoomMenu; }}
 
     private RoomPanels _roomPanels;
     public void FirstInitialize(RoomPanels panels)

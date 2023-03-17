@@ -701,7 +701,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1706445192}
+  - {fileID: 7670537248789144357}
   - {fileID: 385382565}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -833,7 +833,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  markerSelect: {fileID: 1813676224}
 --- !u!95 &385382568
 Animator:
   serializedVersion: 5
@@ -1108,8 +1107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae4655d0d0e9c6d4c99f6f4ee74ab5f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerActive: {fileID: 0}
-  enemyActive: {fileID: 0}
+  animatorEnemy: {fileID: 0}
 --- !u!4 &548044002
 Transform:
   m_ObjectHideFlags: 0
@@ -2869,12 +2867,6 @@ Transform:
   m_Father: {fileID: 1164554025}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1706445192 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7670537248207334060, guid: c52c1d291370499479f1fcb2559369fa,
-    type: 3}
-  m_PrefabInstance: {fileID: 7670537248789144356}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1762274635
 GameObject:
   m_ObjectHideFlags: 0
@@ -3774,6 +3766,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 357219338}
     m_Modifications:
+    - target: {fileID: 5034813282509494446, guid: c52c1d291370499479f1fcb2559369fa,
+        type: 3}
+      propertyPath: sceneViewId
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7670537248207334051, guid: c52c1d291370499479f1fcb2559369fa,
         type: 3}
       propertyPath: m_Name
@@ -3836,3 +3833,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c52c1d291370499479f1fcb2559369fa, type: 3}
+--- !u!4 &7670537248789144357 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9070289160777104510, guid: c52c1d291370499479f1fcb2559369fa,
+    type: 3}
+  m_PrefabInstance: {fileID: 7670537248789144356}
+  m_PrefabAsset: {fileID: 0}
