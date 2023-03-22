@@ -57,11 +57,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
+    <Compile Include="Assets\Scripts\2Managment\managers\Server\SingleUse\SpawnUse.cs" />
     <Compile Include="Assets\Resources\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\Resources\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
     <Compile Include="Assets\Scripts\2Managment\managers\Server\Rooms\CurrentRoomPanel.cs" />
     <Compile Include="Assets\Scripts\3View\controllers\SkillController.cs" />
+    <Compile Include="Assets\Scripts\2Managment\managers\Server\SingleUse\SingelObjectMove.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
     <Compile Include="Assets\Scripts\2Managment\managers\Server\Rooms\LeaveRoomMenu.cs" />
@@ -89,6 +91,7 @@
     <Compile Include="Assets\Resources\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\Scripts\2Managment\managers\Server\Rooms\PlayerListing.cs" />
     <Compile Include="Assets\Resources\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\2Managment\managers\Server\Utilities\QuickInstantiate.cs" />
     <Compile Include="Assets\Scripts\2Managment\managers\GameManager.cs" />
     <Compile Include="Assets\Resources\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\Scripts\2Managment\managers\Server\SingleUse\InstantiateExample.cs" />
@@ -110,6 +113,7 @@
     <Compile Include="Assets\Resources\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
     <Compile Include="Assets\Resources\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\Scripts\2Managment\managers\Server\Utilities\CustomInstantiate.cs" />
     <Compile Include="Assets\Scripts\2Managment\managers\FormManager.cs" />
     <Compile Include="Assets\Scripts\2Managment\managers\Server\SingletonReferences.cs" />
     <Compile Include="Assets\Resources\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
@@ -139,6 +143,7 @@
     <Compile Include="Assets\Resources\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Scripts\2Managment\managers\Server\Rooms\RoomListing.cs" />
     <Compile Include="Assets\Scripts\1Model\Damage.cs" />
+    <Compile Include="Assets\Scripts\2Managment\managers\Server\SingleUse\OwnerShipTransfer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\TextMesh Pro\Shaders\TMPro.cginc" />

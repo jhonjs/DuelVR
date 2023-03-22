@@ -4,8 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using Newtonsoft.Json.Linq;
 using TMPro;
-
-public class PlayerController : MonoBehaviour
+using Photon.Pun;
+public class PlayerController : MonoBehaviourPun, IPunObservable
 {
     public string playerName;
 
@@ -71,14 +71,14 @@ public class PlayerController : MonoBehaviour
         {
             foreach (var _player in GameObject.FindGameObjectsWithTag("Player"))
             {
-                if (_player != gameObject)
+                if (!photonView.IsMine)
                 {
                     enemy = _player;
                     battleManager.GetEnemy(enemy.GetComponent<EnemyController>().animator);
                 }
             }
         }
-        if (Input.GetKeyDown(KeyCode.M))
+        if (Input.GetKeyDown(KeyCode.M) && photonView.IsMine)
         {
             animator.SetTrigger("attack");
         }
@@ -89,4 +89,17 @@ public class PlayerController : MonoBehaviour
         battleManager.AddDamage();
     }
 
+    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    {
+        if (stream.IsWriting)
+        {
+            stream.SendNext(transform.position);
+            stream.SendNext(transform.rotation);
+        }
+        else if (stream.IsReading)
+        {
+            transform.position = (Vector3) stream.ReceiveNext();
+            transform.rotation = (Quaternion) stream.ReceiveNext();
+        }
+    }
 }
