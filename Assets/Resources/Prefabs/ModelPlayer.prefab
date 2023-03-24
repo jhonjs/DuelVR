@@ -2984,7 +2984,6 @@ MonoBehaviour:
   enemy: {fileID: 0}
   amountCard: 4
   amountSkills: 0
-  txtAmountCard: {fileID: 0}
   cardPanel: {fileID: 0}
   show: 0
   folderSkill: {fileID: 0}
@@ -3023,7 +3022,7 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 9070289160777104508}
   - {fileID: -8296364704264152215}
-  - {fileID: 0}
+  - {fileID: 9070289160777104506}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0

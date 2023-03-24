@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviourPun, IPunObservable
     [Header("Attack Cards")]
     public int amountCard = 4;
     public int amountSkills;
-    public TextMeshProUGUI txtAmountCard;
+    private TextMeshProUGUI txtAmountCard;
     public GameObject cardPanel;
     public bool show;
 
@@ -63,6 +63,8 @@ public class PlayerController : MonoBehaviourPun, IPunObservable
     {
         battleManager = FindObjectOfType<BattleManager>();
         animator = GetComponentInChildren<Animator>();
+        txtAmountCard = FindObjectOfType<CardController>().txtAmoutCards;
+        cardPanel = FindObjectOfType<CardController>().cardPanel;
     }
 
     private void Update()

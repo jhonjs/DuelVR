@@ -720,6 +720,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cardPanel: {fileID: 1103225997}
+  txtAmoutCards: {fileID: 1779607963}
   show: 0
 --- !u!1 &684010478
 GameObject:
@@ -4013,7 +4014,6 @@ MonoBehaviour:
   enemy: {fileID: 0}
   amountCard: 4
   amountSkills: 0
-  txtAmountCard: {fileID: 1779607963}
   cardPanel: {fileID: 1103225997}
   show: 0
   folderSkill: {fileID: 1103225997}
