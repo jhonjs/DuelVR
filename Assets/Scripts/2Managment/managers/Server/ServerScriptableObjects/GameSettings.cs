@@ -14,7 +14,7 @@ public class GameSettings : SingletonScriptableObject<GameSettings>
     {
         get
         {
-            int value = Random.Range(1, 3);
+            int value = Random.Range(1, 999);
             return _nickName + value.ToString();
         }
     }

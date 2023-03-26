@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviourPun, IPunObservable
 {
     public string playerName;
 
+    [SerializeField] private Camera _camera;
+
     [Header("Battle System")]
     public BattleManager battleManager;
     public GameObject markerSelect;
@@ -59,12 +61,15 @@ public class PlayerController : MonoBehaviourPun, IPunObservable
         }
 
     }
+
     private void Init()
     {
         battleManager = FindObjectOfType<BattleManager>();
         animator = GetComponentInChildren<Animator>();
         txtAmountCard = FindObjectOfType<CardController>().txtAmoutCards;
         cardPanel = FindObjectOfType<CardController>().cardPanel;
+
+        if (photonView.IsMine) _camera.gameObject.SetActive(true);
     }
 
     private void Update()
