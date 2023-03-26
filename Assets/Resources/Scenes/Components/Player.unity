@@ -3757,6 +3757,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DuelCamera
       objectReference: {fileID: 0}
+    - target: {fileID: 3900130341125275086, guid: 68db57073b050664ba99ef8fca3d0bd8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68db57073b050664ba99ef8fca3d0bd8, type: 3}
 --- !u!1001 &7670537248789144356

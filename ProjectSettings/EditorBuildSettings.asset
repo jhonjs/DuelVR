@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Resources/Scenes/Components/MenuGame/MenuNetwork.unity
     guid: 146fae8e81cecdf4a808981259d0fa65
   - enabled: 1
-    path: Assets/Resources/Scenes/Duel.unity
+    path: Assets/Resources/Scenes/Duel/Duel.unity
     guid: 229c402ba00c735439e55db57a6c0c83
   m_configObjects: {}

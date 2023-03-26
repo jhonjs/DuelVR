@@ -36,13 +36,16 @@ public class PlayerController : MonoBehaviourPun, IPunObservable
     {
         Init();
     }
+
     private void Start()
     {   
         skills = new List<DataCard>();
+
         txtAmountCard.text = amountCard.ToString("");
         cardPanel.SetActive(false);
 
         var player = JObject.Parse(PlayerPrefs.GetString("player"));
+
         amountSkills = int.Parse(player.SelectToken("amountSkills").ToString());
         
         for (int i = 0; i < amountSkills; i++)
@@ -84,10 +87,6 @@ public class PlayerController : MonoBehaviourPun, IPunObservable
                     battleManager.GetEnemy(enemy.GetComponent<EnemyController>().animator);
                 }
             }
-        }
-        if (Input.GetKeyDown(KeyCode.M) && photonView.IsMine)
-        {
-            animator.SetTrigger("attack");
         }
     }
 
