@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: AQAgpWr/////AAABmTRMG6hgIEy3slmBddtIomBuOzDf3zx83s3f3AUIwa9+nuFvxgtufL/Gyufj90IWk8iRv9rGYPZtxwdHR3wdVMFCJ4SC27CKhVu05etTDv47iGK6h8Z/lEBvO5GxNU6a0ciOHrF72g5gWfhwbleqruUERZbb3faeRhz6HdjMksspCtdRc4/nTSL+60oLCg47Ed7Lvp+7DUljy1MqTlPcYgm2EHdR68P9TGdLdJfE672LeJuubfPAq8NyRk57whc8OAfbBa+5Jc5CAFt/yLUkKvN8c4UN9x0eepDrB8prO20WRkt5YjoIIihqITQc6wSg7TZhNMfRYevs2WbRlaXQEbG+YAgs6HfizRbWsM/RXwdb
-    ufoLicenseKey: QVVXSjUyRC8vLy8vQUFBQUtBS2pBdXI0M2tUUHJvMUMxODlQMkxTVG5vT0FzZWgzTllJcGRFSzZBcFMwN05DVjFacytNYXlpZ2NCTG5IVGJ3MDFkZGUyd2h6L21JNkVrdWJ6N000WFptY1ZPM203TUY4WXpDY3E1NzNZck5HejZFUUxUQmdNNDlqc3UvbGIzZ00rOEV3MmlCUnc2K01YV1R5Y1VIWExpWnJod0xXdXFkUlA1K2ZseENUUnBXUTczTzJobnZvKzlNejRNVWtaWUZ6ZFBGM1JmcHVic3BCOEpXcmdwQkJLNkdKYkoyRDhrNllhOUpnMFBTL3JpbEVhL1R1UjYxbmdBSmZJN0VaTTFSaXBRUnkwcEUvWWM1TVE5bVZvWnh6dlVXSEZYOXFPd041ZVFiN3Nhcy82S200d1hpWFU3OXcrMDEwMDRidDJXMndVWFcyNGhVUGZ3YnpTOFI3NWZHZGo0SFk0WEtibi9wNHdOVEZYNzl2aWo=
+    ufoLicenseKey: QVhiM0Y1Ly8vLy8vQUFBQUtPbnFIeHJFSGs1N3VrMlg4U050eVBzK2pkOFZxMDhrazlwYjBsYS9aZUIxQlV1ckZWcWt0ZllSQWpnT2tIRlY2VzdOMDRTRjNYRUhmbTF5L1BnYlB4eWdHWEF6RUNheXowc3dyNVNYa2ozdERuRjhka1FpOHRscHdkMDcrcEJEY1FjTjNJcUM1bEgwOTYzQkdZdjRsQStRb0hSQU9nRGthelp5TlY0WHVwWU9EaE05NWw5bXAzbnBDMjM5MWZBWXBFdEdiL2loTDNab3N4b25ZblhjK1JtSS9wLzRoTDIwVGhmTXR6WFJNYkpUTXZLZzJoQ0N0TEJXNEptZ0pSOUtSdStzQWM3QjVNOWFFMGVHQ1dUT1VRSUUweEpiZC9ZL2cvS29iNDhBRXdQOGFwbWR5NmRWU0FHU2psVzRZY2FEU2Zud3J1ZHhucVNmSUZiajNTUnIzM0lKVlFIaW1rL0oyOGNFeDdyekcySXg=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
+    maxSimultaneousImageTargets: 11
     virtualSceneScaleFactor: 1
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 0
@@ -42,7 +42,7 @@ MonoBehaviour:
     autoStartTracker: 1
     arcoreRequirement: 1
     autoImportArcore: 1
-    thirdPartyARCoreClientDetected: 0
+    thirdPartyARCoreClientDetected: 1
   playmode:
     mSequencePath: 
     playModeType: 0

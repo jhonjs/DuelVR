@@ -8,11 +8,25 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/SamplesResources/Scenes/0-Main.unity
     guid: a09cb257d566c489595b16ab37547666
+  - enabled: 0
+    path: Assets/Resources/Scenes/Components/MenuGame/Menu.unity
+    guid: d45cb5867c869314e85ef2f01300554a
+  - enabled: 0
+    path: Assets/Resources/Scenes/Components/MenuGame/SubMenu.unity
+    guid: b19d368503571534593388f6331068aa
+  - enabled: 0
+    path: Assets/Resources/Scenes/Components/MenuGame/MenuNetwork.unity
+    guid: 146fae8e81cecdf4a808981259d0fa65
+  - enabled: 0
+    path: Assets/Resources/Scenes/Duel/Duel.unity
+    guid: 229c402ba00c735439e55db57a6c0c83
   - enabled: 1
-    path: Assets/Resources/Scenes/SpringDemo.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Resources/Scenes/World.unity
+    guid: f301de1bb544a2c48aaebe6359fb1d0b
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 5470e98ac210ce2489c9a1b87ae8373b,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5de04f656cae73b49894d75dfd5e5cd3,
+      type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 060f3268bf952cf49b99e50b079c9bfa,
       type: 2}
