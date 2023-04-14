@@ -1,0 +1,12 @@
+contador	comandos
+1	CTRL + C
+2	CTRL + X
+3	CTRL + V
+4	CTRL + P
+5	CTRL + D
+6	CTRL + A
+7	CTRL + Y
+8	CTRL + SHIFT + SUPR
+9	CTRL + SHIFT + ESC
+10	ESC
+11	SUPR

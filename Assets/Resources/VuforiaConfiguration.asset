@@ -9,22 +9,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Script: {fileID: -2067402452, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: AQAgpWr/////AAABmTRMG6hgIEy3slmBddtIomBuOzDf3zx83s3f3AUIwa9+nuFvxgtufL/Gyufj90IWk8iRv9rGYPZtxwdHR3wdVMFCJ4SC27CKhVu05etTDv47iGK6h8Z/lEBvO5GxNU6a0ciOHrF72g5gWfhwbleqruUERZbb3faeRhz6HdjMksspCtdRc4/nTSL+60oLCg47Ed7Lvp+7DUljy1MqTlPcYgm2EHdR68P9TGdLdJfE672LeJuubfPAq8NyRk57whc8OAfbBa+5Jc5CAFt/yLUkKvN8c4UN9x0eepDrB8prO20WRkt5YjoIIihqITQc6wSg7TZhNMfRYevs2WbRlaXQEbG+YAgs6HfizRbWsM/RXwdb
-    ufoLicenseKey: QWRJbFd3TC8vLy8vQUFBQUtPK09wZ0VtZFVIMGkrc28wVTFuNGg5WXZ0QkR5NWNXQkpuUWRJblc3MWdaTkxXb2dMbTZVT0lNSjNONmRjUHEzYzgvcDRrSVFTK0VHTmMrRjNUUXdtU2svVW9FVWlVa0QvTnd6ckJkK3c4akZ6YUtFUUp3N2Z1ZjFkNFhma0V1RFlwbGJHT285eVJ3enBRb2Q0cEVTUGtrQjc5eSsxWVV1NGNIOUFEak52eC9Kdkczeml1ajRka3FrWGZROE5hbjdxMEhBTEsxM29xbFBONGhNTkExVDZKYWcycnM4MHNBdmFVMmIxbStrZkRkdWllRFUwR0NORVFrYkpkUmkxc204dm1FU0VvUVNnQTRjN0piVlF3N1NVQ2FjZThLQjg2NDN1Wm5JQmVQS3hIT3hGSmRiWTVTWWUyZ2FxVnlKU0dTclZ4bzIrNXAxV3VWdkVJdXNadzJtYmp1dnBiS1ZtZDRBV3l1dlpySXc2dFE=
+    ufoLicenseKey: QVhiM0Y1Ly8vLy8vQUFBQUtPbnFIeHJFSGs1N3VrMlg4U050eVBzK2pkOFZxMDhrazlwYjBsYS9aZUIxQlV1ckZWcWt0ZllSQWpnT2tIRlY2VzdOMDRTRjNYRUhmbTF5L1BnYlB4eWdHWEF6RUNheXowc3dyNVNYa2ozdERuRjhka1FpOHRscHdkMDcrcEJEY1FjTjNJcUM1bEgwOTYzQkdZdjRsQStRb0hSQU9nRGthelp5TlY0WHVwWU9EaE05NWw5bXAzbnBDMjM5MWZBWXBFdEdiL2loTDNab3N4b25ZblhjK1JtSS9wLzRoTDIwVGhmTXR6WFJNYkpUTXZLZzJoQ0N0TEJXNEptZ0pSOUtSdStzQWM3QjVNOWFFMGVHQ1dUT1VRSUUweEpiZC9ZL2cvS29iNDhBRXdQOGFwbWR5NmRWU0FHU2psVzRZY2FEU2Zud3J1ZHhucVNmSUZiajNTUnIzM0lKVlFIaW1rL0oyOGNFeDdyekcySXg=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
+    maxSimultaneousImageTargets: 11
     virtualSceneScaleFactor: 1
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 0
     logLevel: 0
-    version: 10.12.3
-    eulaAcceptedVersions: '{"Values":["8.1","8.3","9.8","10.12"]}'
+    version: 10.14.4
+    eulaAcceptedVersions: '{"Values":["","8.1","8.3","9.8","10.12","0.0","10.14"]}'
   database:
     disableModelExtraction: 0
   shaders:
@@ -42,7 +42,7 @@ MonoBehaviour:
     autoStartTracker: 1
     arcoreRequirement: 1
     autoImportArcore: 1
-    thirdPartyARCoreClientDetected: 0
+    thirdPartyARCoreClientDetected: 1
   playmode:
     mSequencePath: 
     playModeType: 0
