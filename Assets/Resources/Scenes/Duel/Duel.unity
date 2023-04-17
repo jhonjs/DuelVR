@@ -231,6 +231,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 42561a2eed34aeb4baf81fb618d4cd8b, type: 2}
   - {fileID: 11400000, guid: 8c98290bf9a302c4f878be7d6c2428b5, type: 2}
   - {fileID: 11400000, guid: 55cd040fad1172d46a60ab6df546a5ce, type: 2}
+  txtAmountCards: {fileID: 0}
+  panelWinner: {fileID: 0}
+  folderCards: {fileID: 0}
+  cardsPublished: 11
+  txtScore: {fileID: 0}
+  txtTimer: {fileID: 0}
 --- !u!114 &455883054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -820,12 +826,12 @@ PrefabInstance:
     - target: {fileID: 449445471867376553, guid: 0c258a17ccbd1dc478c6efb9cba12383,
         type: 3}
       propertyPath: m_fontSize
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 449445471867376553, guid: 0c258a17ccbd1dc478c6efb9cba12383,
         type: 3}
       propertyPath: m_fontSizeBase
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 449445471867376558, guid: 0c258a17ccbd1dc478c6efb9cba12383,
         type: 3}
@@ -892,15 +898,35 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 449445472990122074, guid: 0c258a17ccbd1dc478c6efb9cba12383,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 449445472990122074, guid: 0c258a17ccbd1dc478c6efb9cba12383,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 449445472990122074, guid: 0c258a17ccbd1dc478c6efb9cba12383,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.58431375
+      objectReference: {fileID: 0}
+    - target: {fileID: 449445472990122074, guid: 0c258a17ccbd1dc478c6efb9cba12383,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.41568628
+      objectReference: {fileID: 0}
     - target: {fileID: 449445473329824708, guid: 0c258a17ccbd1dc478c6efb9cba12383,
         type: 3}
       propertyPath: m_fontSize
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 449445473329824708, guid: 0c258a17ccbd1dc478c6efb9cba12383,
         type: 3}
       propertyPath: m_fontSizeBase
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 449445473329824708, guid: 0c258a17ccbd1dc478c6efb9cba12383,
         type: 3}

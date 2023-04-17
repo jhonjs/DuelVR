@@ -483,10 +483,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 449445471867376553, guid: 0c258a17ccbd1dc478c6efb9cba12383,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 449445471867376553, guid: 0c258a17ccbd1dc478c6efb9cba12383,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 449445472588631470, guid: 0c258a17ccbd1dc478c6efb9cba12383,
         type: 3}
       propertyPath: m_Color.a
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 449445473329824708, guid: 0c258a17ccbd1dc478c6efb9cba12383,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 449445473329824708, guid: 0c258a17ccbd1dc478c6efb9cba12383,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 449445473337574173, guid: 0c258a17ccbd1dc478c6efb9cba12383,
         type: 3}
