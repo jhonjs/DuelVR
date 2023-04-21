@@ -6,10 +6,6 @@ using TMPro;
 
 public class MenuManger : GameManager
 {
-    private void Start()
-    {
-        
-    }
     public override void Exit()
     {
         base.Exit();

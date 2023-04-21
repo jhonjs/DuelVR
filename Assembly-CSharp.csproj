@@ -158,6 +158,7 @@
     <None Include="Assets\Resources\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll" />
     <None Include="Assets\Resources\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Resources\images\production\License free.txt" />
     <None Include="Assets\StreamingAssets\Vuforia\AR_DB.xml" />
     <None Include="Assets\Resources\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\Resources\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -183,6 +184,7 @@
     <None Include="Assets\Photon\PhotonUnityNetworking\link.xml" />
     <None Include="Assets\Resources\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\VRL.xml" />
+    <None Include="Assets\Resources\images\production\License premium.txt" />
     <None Include="Assets\Resources\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\Resources\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
   </ItemGroup>
